@@ -71,11 +71,11 @@ index 0000000000000000000000000000000000000000..82150126c0d1608de0af9a8582571628
 +    }
 +}
 \ No newline at end of file
-diff --git a/src/main/java/net/minecraft/server/ControllerLook.java b/src/main/java/net/minecraft/server/ControllerLook.java
-index 31bad166359c2f2fa0182005c6ae4b26ab54ca4f..66601cf3c30ae468fda61099f5eaac627fde5974 100644
---- a/src/main/java/net/minecraft/server/ControllerLook.java
-+++ b/src/main/java/net/minecraft/server/ControllerLook.java
-@@ -80,14 +80,14 @@ public class ControllerLook {
+diff --git a/src/main/java/net/minecraft/world/entity/ai/control/ControllerLook.java b/src/main/java/net/minecraft/world/entity/ai/control/ControllerLook.java
+index 3ce9edde641c8b8eea75479615bcd2866ffd2198..b44481633a798c560af5b55723daa32264bb2be3 100644
+--- a/src/main/java/net/minecraft/world/entity/ai/control/ControllerLook.java
++++ b/src/main/java/net/minecraft/world/entity/ai/control/ControllerLook.java
+@@ -86,14 +86,14 @@ public class ControllerLook {
          double d2 = this.g - this.a.locZ();
          double d3 = (double) MathHelper.sqrt(d0 * d0 + d2 * d2);
  

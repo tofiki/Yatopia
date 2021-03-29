@@ -34,11 +34,11 @@ index 0000000000000000000000000000000000000000..081aa46531a9df1dc732669a2c1e3180
 +    }
 +}
 \ No newline at end of file
-diff --git a/src/main/java/net/minecraft/server/DataConverterRegistry.java b/src/main/java/net/minecraft/server/DataConverterRegistry.java
-index b149e32aac86ce2f7521958fa7394e4f5b852174..b077104a751dc921b37dacd092924d6f08850ac3 100644
---- a/src/main/java/net/minecraft/server/DataConverterRegistry.java
-+++ b/src/main/java/net/minecraft/server/DataConverterRegistry.java
-@@ -18,7 +18,7 @@ public class DataConverterRegistry {
+diff --git a/src/main/java/net/minecraft/util/datafix/DataConverterRegistry.java b/src/main/java/net/minecraft/util/datafix/DataConverterRegistry.java
+index 625dcfaeffb83a0b8b53778c32287cac8daae540..5a22fd08cc2a09d8695ca060dee80183364164a1 100644
+--- a/src/main/java/net/minecraft/util/datafix/DataConverterRegistry.java
++++ b/src/main/java/net/minecraft/util/datafix/DataConverterRegistry.java
+@@ -202,7 +202,7 @@ public class DataConverterRegistry {
      // Yatopia start
      private static final DataFixer c;
      static {
